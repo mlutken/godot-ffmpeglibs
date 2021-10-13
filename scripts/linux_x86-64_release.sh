@@ -1,8 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 ARCH="x86_64"
 
 ffmpeglibs_startup_dir=`pwd`
 ffmpeglibs_scripts_dir="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )"
+echo "ffmpeglibs_scripts_dir::: ${ffmpeglibs_scripts_dir}"
+
 . ${ffmpeglibs_scripts_dir}/ffmpeg_source.sh
 
 prefix_dir=${ffmpeglibs_dir}/lib/linux/release/${ARCH}

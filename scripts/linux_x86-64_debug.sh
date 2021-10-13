@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ARCH="x86_64"
 
 ffmpeglibs_startup_dir=`pwd`
